@@ -59,11 +59,11 @@ input.form-control { height:10em; }
         <?php foreach ($todo_list as $todo) { ?>
             <div class="col-md-4 mb-3">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body"> 
                         <p class="card-text"><?php echo htmlspecialchars($todo[1]); ?></p>
                         <p class="small text-muted"><?php echo htmlspecialchars($todo[2]); ?></p>
-                        <a href="todo_finish.php?id=<?php echo htmlspecialchars($todo[0]); ?>"
-                           class="btn btn-primary btn-sm">完了</a>
+                        <a href="todo_finish.php?id=<?php echo htmlspecialchars($todo[0]); ?>" class="btn btn-primary btn-sm">完了</a>
+                        <a href="todo_finish.php?id=<?php echo htmlspecialchars($todo[0]); ?>" class="btn btn-primary btn-sm">編集</a>
                     </div>
                 </div>
             </div>
