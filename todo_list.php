@@ -63,7 +63,6 @@ input.form-control { height:10em; }
                         <p class="card-text"><?php echo htmlspecialchars($todo[1]); ?></p>
                         <p class="small text-muted"><?php echo htmlspecialchars($todo[2]); ?></p>
                         <a href="todo_finish.php?id=<?php echo htmlspecialchars($todo[0]); ?>" class="btn btn-primary btn-sm">完了</a>
-                        <a href="todo_finish.php?id=<?php echo htmlspecialchars($todo[0]); ?>" class="btn btn-primary btn-sm">編集</a>
                     </div>
                 </div>
             </div>
